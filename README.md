@@ -81,8 +81,11 @@ Create an docker file to create an image with httpd2 server in it, on running
 the image as an container the server should start up
 
 
+docker run --restart on-failure nginx:1.19.19
+
 ![doc-vol](https://user-images.githubusercontent.com/65504920/165278124-5482ed87-94b7-4d88-b799-0648389c7d57.png)
 
+docker run nginx:1.19.10
 
 Create an container out of the image you created in earlier step expose the 80 port to the parent host
 
