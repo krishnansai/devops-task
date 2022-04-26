@@ -1,7 +1,6 @@
 #!/bin/bash
 
-echo "enter a number"
-read num
+num=$1
 sum=0
 for (( n=2; n<=$num; n++ ))
 do
@@ -30,5 +29,4 @@ done
         fi
 fi
 done
-echo "sum of prime number is $sum "
-
+echo "sum of prime number is $sum 
