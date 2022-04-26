@@ -143,3 +143,19 @@ Create an bridge network and spin up two containers in the network one with the 
 
 
 ![bridge-net](https://user-images.githubusercontent.com/65504920/165278177-80b22f06-fef7-414b-b303-a0e84c108e15.png)
+
+
+
+Create an docker compose file with an nginx and an redis server both connected via an bridge network
+
+docker-compose up -d
+
+docker ps to check running state
+
+docker network ls  to list out the network state
+
+
+![docker-network](https://user-images.githubusercontent.com/65504920/165359658-e8d9d629-5794-45fe-b955-92ab07d61087.png)
+
+
+
