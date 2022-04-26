@@ -1,29 +1,13 @@
 version: '3.8'
-
 services:
-  redis:
-    image: redis:alpine
-    ports:
-      - "6379:6379"
-    volumes:
-      - ./data/redis:/data
-    environment:
-      - REDIS_PASSWORD=redis
-    restart: always
-    networks:
-      my_network:
-        external:
-          name: my_network
-  ngnix:
-    image: nginx:alpine
-    ports:
-      - "80:80"
-    volumes:
-      - ./data/nginx:/etc/nginx/conf.d
-    networks:
-      my_network:
-        external:
-          name: my_network
-    restart: always
-    depends_on:
-      - redis
+ my-nginx:
+  image: nginx
+  networks:
+   - my-network
+ my-redis:
+  image: redis
+  networks:
+   - my-network
+networks:
+ my-network:                    
+  name: test-app
