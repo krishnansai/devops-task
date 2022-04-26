@@ -1,0 +1,13 @@
+{
+
+“Ibm”: [“RedHat”,”Mainframe”,”IBM cloud”,”RHEL”],
+
+“google”: [“k8s”,”kaggle”,”firebase”],
+
+“microsoft”: [“windows”,”azure”,”office365”],
+
+“amazon”: [“AWS”,”AWS Gov”,”Amplify”],
+
+“softwareag”: [“webmethods”,”AIRS”,”ADABAS”,”CumIOT”]
+
+}
