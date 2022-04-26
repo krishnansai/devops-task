@@ -88,6 +88,16 @@ arguments) and print their products by parsing the following json file
 ![json-script](https://user-images.githubusercontent.com/65504920/165349454-c6fb8881-4864-4f66-aa25-1aa2e5e700db.png)
 
 
+Create an script that will calculate the sum of prime numbers between 0 to an 
+given number(to be given as an argument) name it child.sh, create 
+another script named parent.sh which check if the
+ child script exists in current dir and if exists change permission to 
+execute for current user and call the child script from the parent 
+script passing the number as argument
+
+![prime](https://user-images.githubusercontent.com/65504920/165353075-a32dd011-f950-4fc0-8480-d466a724d232.png)
+
+
 
 install the apache httpd server(centos preferred), and the home page should say “SoftwareAG”
 
