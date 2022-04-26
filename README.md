@@ -1,5 +1,6 @@
 # devops-task
 
+**Linux And Shell Script**
 
 Create an file named file.txt, create an user sampleuser. Change the ownership of the file to sampleuser
 
@@ -103,6 +104,13 @@ install the apache httpd server(centos preferred), and the home page should say 
 
 
 ![apache2-html](https://user-images.githubusercontent.com/65504920/165277690-06f1fdd4-3d82-49fa-a9d7-7c8123ed8389.png)
+
+
+
+Make the Https server an Linux systemd service and write an script to stop, start and restart the server via systemctl
+
+
+![my-systemctl](https://user-images.githubusercontent.com/65504920/165355934-77b59f63-4736-464a-9e1f-d11ccd407502.png)
 
 
 
