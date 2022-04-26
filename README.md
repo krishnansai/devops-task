@@ -61,10 +61,39 @@ awk '{ printf "%s(%s)-%s\n", $1,$2,$3 }' contact.txt
 ![align-script](https://user-images.githubusercontent.com/65504920/165277383-7a95665e-24a9-4e1f-b387-07fe3cb43c41.png)
 
 
+
+Write an script that will get the company name as arguments(command line 
+arguments) and print their products by parsing the following json file
+
+{
+
+
+“Ibm”: [“RedHat”,”Mainframe”,”IBM cloud”,”RHEL”],
+
+
+“google”: [“k8s”,”kaggle”,”firebase”],
+
+
+“microsoft”: [“windows”,”azure”,”office365”],
+
+
+“amazon”: [“AWS”,”AWS Gov”,”Amplify”],
+
+
+“softwareag”: [“webmethods”,”AIRS”,”ADABAS”,”CumIOT”]
+
+
+}
+
+![json-script](https://user-images.githubusercontent.com/65504920/165349454-c6fb8881-4864-4f66-aa25-1aa2e5e700db.png)
+
+
+
 install the apache httpd server(centos preferred), and the home page should say “SoftwareAG”
 
 
 ![apache2-html](https://user-images.githubusercontent.com/65504920/165277690-06f1fdd4-3d82-49fa-a9d7-7c8123ed8389.png)
+
 
 
 **Docker**
