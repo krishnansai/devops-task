@@ -122,7 +122,7 @@ Create an docker volume named sampledata
 Spin up an ubuntu docker container, mount the sampledata docker volume. Pass
  the env variable os=ubuntu to the docker container when bringing it up
 
-Create an dir names /sampledir mount it to an nginx:1.19.0 docker container
+
 
 Create an docker file to create an image with httpd2 server in it, on running 
 the image as an container the server should start up
@@ -131,6 +131,15 @@ the image as an container the server should start up
 docker run --restart on-failure nginx:1.19.19
 
 ![doc-vol](https://user-images.githubusercontent.com/65504920/165278124-5482ed87-94b7-4d88-b799-0648389c7d57.png)
+
+Create an dir names /sampledir mount it to an nginx:1.19.0 docker container
+
+
+![sample-dir](https://user-images.githubusercontent.com/65504920/165665232-30b1d33c-f72c-49d6-ad81-9539b60ed836.png)
+
+
+
+
 
 docker run nginx:1.19.10
 
